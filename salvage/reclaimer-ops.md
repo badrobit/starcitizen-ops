@@ -3,12 +3,12 @@ A high level overview of how salvage operations (org events focused on salvage) 
 ## Salvage "Squadron"
 The breakdown of the ships that should be fielded for any salvage operation
 
-- 1/2 Reclaimers (NO MORE THAN 2!! until we build up enough reclaimer crews)
+- 1/2 [Aegis Reclaimers](https://starcitizen.tools/Reclaimer) (NO MORE THAN 2!! until we build up enough reclaimer crews)
 	- For the loadout `@badrobit` uses [Abrades Scraper Modules](https://uexcorp.space/items/info?name=abrade-scraper-module) for the salvage beam and their full [Reclaimer configuration can be found here](https://www.erkul.games/loadout/5ReFh8P5)
 	- Due to the size of the targets we will be getting from the missions [`Drake Vultures`](https://starcitizen.tools/Vulture) and [`MISC Fortunes`](https://starcitizen.tools/Fortune) do not really fit here but if there is a desire for a similar event focused around smaller salvage reach out to `@badrobit` and he will happily help scale this for that setup
 - 1 [Standard Recovery Vehicle](https://starcitizen.tools/SRV) (for every 3 reclaimers or per estimated operational area density) 
-- 1 Cargo Ship (C2 or Higher)
-	- A caterpillar may work but they don't hold 32 SCU boxes on the grid you can contain them but they will not be snaped down
+- 1 Cargo Ship ([Crusader C2 Hercules Starlifter](https://starcitizen.tools/C2_Hercules_Starlifter)or better)
+	- A [Drake Caterpillar](https://starcitizen.tools/Caterpillar) may work but they don't hold 32 SCU boxes on the grid you can contain them but they will not be snaped down
 	- Optional Protection (ideally this is combined with the cargo ship via a [Polaris](https://starcitizen.tools/Polaris) or [Ironclad](https://starcitizen.tools/Ironclad))
 
 ## Reclaimer Positions
@@ -58,8 +58,6 @@ Perform the following on a bit of a loop:
 	- Split/Send `RMC` to the team members who will be selling the `RMC`
 	- Split/Send `Commodities` to the team members who will be selling the `Commodities` 
 	- Split/send `Components` to the storage of the team members who will be distributing the `Components` 
-
-![[salvage-ops.svg]]
 
 ```mermaid
 graph TD
@@ -153,7 +151,7 @@ For the google sheet select the "Non Purchasable Components" sheet and create a 
 	- 2
 
 This should provide you with a view as seen in the following screenshot that reduces your list to only the parts that you cannot buy in a store, that can be looted and that are tier "A": 
-![[{8B013692-DFE4-48C7-B90F-CAE8CA3046FC}.png]]
+![[./{8B013692-DFE4-48C7-B90F-CAE8CA3046FC}.png]]
 
 ### Phase 2: Transportation (to sale site)
 
