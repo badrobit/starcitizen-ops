@@ -11,11 +11,26 @@ The breakdown of the ships that should be fielded for any salvage operation
 	- A [Drake Caterpillar](https://starcitizen.tools/Caterpillar) may work but they don't hold 32 SCU boxes on the grid you can contain them but they will not be snaped down
 	- Optional Protection (ideally this is combined with the cargo ship via a [Polaris](https://starcitizen.tools/Polaris) or [Ironclad](https://starcitizen.tools/Ironclad))
 
-## Reclaimer Positions
+### Mission Positions
 
-- 1 Pilot/Arm Operator 
-- 2 Salvage Turret Operators / Remote Gun Turret Operators 
-- 1 stevedore/Gun Turret Operator/Commodity Pirate
+Total seats for phase1: 11
+
+- `Reclaimer #1`: 
+  - 1 Pilot/Arm Operator  
+  - 1 Left Salvage Turret Operators / Remote Gun Turret Operators 
+  - 1 Right Salvage Turret Operators / Remote Gun Turret Operators 
+  - 1 stevedore/Gun Turret Operator/Commodity Pirate
+- `Reclaimer #2`: 
+  - 1 Pilot/Arm Operator  
+  - 1 Left Salvage Turret Operators / Remote Gun Turret Operators 
+  - 1 Right Salvage Turret Operators / Remote Gun Turret Operators 
+  - 1 stevedore/Gun Turret Operator/Commodity Pirate
+- `Cargo`: 
+  - Pilot/Cargo 
+  - Co-Pilot/Cargo
+- `SRV`: 
+  - Pilot
+
 
 ## General Salvage Mission 
 
@@ -105,7 +120,7 @@ graph TD
 ### Phase1a: Transportation (during mission Ops) 
 This is specifically for the Cargo team. Your goal is to offload as many `Commodities` and `Components` from the mission ships and derelicts in the area of operations.               
 > [!WARNING]
-> Most of the ships spawned for the `(Quickly) Clear CFP Convoy` contain mostly `Size 3` or `Size 4` components which cannot be looted from ships. You will not be able to pull anything other than externally mounted `guns`, `missiles`. 
+> Most of the ships spawned for the `(Quickly) Clear CFP Convoy` contain mostly [`Size 3` or `Size 4` ](https://starcitizen.tools/Ship_components#Size_Categories)components which cannot be looted from ships. You will not be able to pull anything other than externally mounted `guns`, `missiles`. 
 >
 > There is also a risk that the components are damaged and in need of repair. The recommendation is to repair them before pulling them as you will either need to repair them with a [Cambio SRT](https://uexcorp.space/items/info?name=cambio-srt) / [Cambio-lite SRT Attachment](https://uexcorp.space/items/info?name=cambio-lite-srt-attachment)  in order to repair the component.  
 
@@ -151,7 +166,8 @@ For the google sheet select the "Non Purchasable Components" sheet and create a 
 	- 2
 
 This should provide you with a view as seen in the following screenshot that reduces your list to only the parts that you cannot buy in a store, that can be looted and that are tier "A": 
-![[./{8B013692-DFE4-48C7-B90F-CAE8CA3046FC}.png]]
+
+![](../images/component_sheet.png)
 
 ### Phase 2: Transportation (to sale site)
 
@@ -161,17 +177,21 @@ Once a suitable amount of materials have been accumulated they should be moved (
 
 Payment Breakdown: 
 
-- The Org Bank will take a 10% cut of gross revenue. 
+- The Org Bank will take a `10%` cut of gross revenue. 
 - Phase Cut: Net - Expenses - SCI Bank
-	- Phase 1: 70% of the Phase Cut
-	- Phase2: 30% of the Phase Cut
+	- Phase 1: `70%` of the Phase Cut
+	- Phase 2: `30%` of the Phase Cut
 
 Given that the team member who accepts the mission will be paying `50,000 αUEC` out of pocket that is to be listed on the largest `RMC` workorder as an expense to that team member. We will be providing a tool to the team member running each event to make managing this easier
 
 An example of the payout for a 5 member crew can be seen here: (I started to find some irregularities in regolith sadly)
-![[{395E8761-25C3-4985-BD4C-8BB34B9AB3F5}.png]]
+
+![](../images/expenses.png)
 
 Any team member responsible for selling any commodities or `RMC` will make every effort to make the sale within 1 week of the event date. Each seller will track the commodity they are selling through a work order on Regolith and mark when the `RMC` or Commodities have been sold and indicate when the funds have been transferred. 
 
 #### Loss of Cargo 
 If you are handling the sale of any materials and lose the cargo for any number of reasons please mark your work order as failed and message the event organizer letting them know why it was failed (you can also indicate this when you mark the work order as failed in regolith).  This is just part of playing star citizen and even if the game worked perfectly there are pirates out there so sometimes there is just no getting the material to the point of sale. 
+
+
+[`Components`]: https://starcitizen.tools/Ship_components 
