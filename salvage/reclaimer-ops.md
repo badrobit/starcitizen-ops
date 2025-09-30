@@ -34,9 +34,14 @@ Total seats for phase1: 11
 
 ## General Salvage Mission 
 
-This is mostly targeting running the Headhunters salvage missions (`50K aUEC COST`, `(Quickly) Clear CFP Convoy`). This is focused around high profitability so we want highly focused teams running a tight **3 hour time limited mission** (for phase 1 and 1a. The reason for this is two fold, one it helps us determine how awesome we are being the second is one of the major resources we will require for base building and crafting is construction material. Salvage is currently the best known way to get our hands on it. 
+This is mostly targeting running the Headhunters salvage missions (`120,000 K aUEC COST`, `Swifty Salvage XenoThreat {ship-name}`). This is focused around high profitability so we want highly focused teams running a tight **3 hour time limited mission** (for phase 1 and 1a. The reason for this is two fold, one it helps us determine how awesome we are being the second is one of the major resources we will require for base building and crafting is construction material. Salvage is currently the best known way to get our hands on it. 
 
-The `(Quickly) Clear CFP Convoy` spawns the following target ships for us to salvage: 
+The ``Swifty Salvage XenoThreat {ship-name}` spawns one the following target ships for us to salvage: 
+- [Anvil Carrack](https://starcitizen.tools/Carrack)
+- [Aegis Reclaimer](https://starcitizen.tools/Reclaimer)
+
+
+The `(Quickly) Clear CFP Convoy` spawns two of the following target ships for us to salvage: 
 
 - [Aegis Hammerhead](https://starcitizen.tools/Hammerhead)
 - [Crusader A2 Hercules Starlifter](https://starcitizen.tools/A2_Hercules_Starlifter)
@@ -140,6 +145,8 @@ Take without Question:
 
 Grab if present in quantities of 24 SCU or higher (this helps to offset the time cost of selling for bulk sales)
 
+
+- [Distilled Spirts (`530 αUEC/SCU`)](https://uexcorp.space/commodities/info/name/distilled-spirits/tab/locations_buying/)
 - [Iron (`377 αUEC/SCU`)](https://uexcorp.space/commodities/info/name/iron/tab/locations_buying/)
 - [Copper (`345`)](https://uexcorp.space/commodities/info/name/copper/tab/locations_buying/)
 - [Quartz (`370 αUEC/SCU`)](https://uexcorp.space/commodities/info/name/quartz/tab/locations_buying/)
